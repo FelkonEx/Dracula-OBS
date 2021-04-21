@@ -2,7 +2,7 @@
 
 > A dark theme for [OBS Studio](https://obsproject.com/).
 
-<!-- ![Screenshot](./screenshot.png) -->
+![Screenshot](./screenshots/Screenshot1.png)
 
 ## Install
 
