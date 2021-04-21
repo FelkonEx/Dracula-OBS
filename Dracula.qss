@@ -135,7 +135,7 @@ QMenuBar::item {
 QListWidget::item:selected:!active,
 SourceTree::item:selected:!active {
     color: rgb(255, 255, 255);
-    /* background-color: rgb(48,47,48); */
+    background-color: rgb(68,71,90); /* CurrentLine */
 }
 
 QListWidget QLineEdit,
@@ -839,11 +839,13 @@ SceneTree {
 }
 
 *[gridMode="true"] SceneTree::item:selected {
-    background-color: rgb(122,121,122); /* light */
+    background-color: rgb(98,114,164); /* Comment */
+    /**CHANGE THIS */
 }
 
 *[gridMode="true"] SceneTree::item:hover {
-    background-color: rgb(122,121,122); /* light */
+    background-color: rgb(98,114,164); /* Comment */
+    /**CHANGE THIS */
 }
 
 *[gridMode="true"] SceneTree::item:pressed {
