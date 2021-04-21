@@ -1,10 +1,4 @@
-### [OBS Studio](https://obsproject.com/)
-
-#### Install using Git
-
-If you are a git user, you can install the theme and keep up to date by cloning the repo:
-
-    $ git clone https://github.com/dracula/obs.git
+### [OBS Studio](https://obsproject.com/)\
 
 #### Install manually
 
