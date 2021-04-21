@@ -12,9 +12,9 @@ Download using the [GitHub .zip download](https://github.com/dracula/obs/archive
 
 #### Activating theme
 
-For 32 bit install: C:\Program Files (x86)\OBS
-for 64 bit install: C:\Program Files\OBS
-
-1. Do this
-2. Then that
-3. Boom! It's working
+1. Find your OBS install directory:
+    - For 32 bit install: `C:\Program Files (x86)\obs-studio\`
+    - for 64 bit install: `C:\Program Files\obs-studio\`
+    - Or alternatively, wherever you chose to install OBS.
+2. Navigate to `data\obs-studio\themes`, and copy over `Dracula.qss` (should be with other `.qss` files)
+3. From within OBS, go to `File` -> `Settings` -> `General` -> and select `Dracula` from the `Theme` dropdown.
