@@ -2,7 +2,7 @@
 
 /* rgb(248,248,242); /* Foreground */
 /* rgb(200,199,200); /* lighter */
-/* rgb(122,121,122); /* light */
+/* rgb(98,114,164); /* Comment */
 /* rgb(98,114,164); /* Comment */
 /* rgb(40,42,54); /* Background */
 /* rgb(33,34,44); /* AnsiBlack */
@@ -87,9 +87,9 @@ OBSTheme {
 }
 
 OBSTheme::disabled {
-    text: rgb(122,121,122); /* light */
-    buttonText: rgb(122,121,122); /* light */
-    brightText: rgb(122,121,122); /* light */
+    text: rgb(98,114,164); /* Comment */
+    buttonText: rgb(98,114,164); /* Comment */
+    brightText: rgb(98,114,164); /* Comment */
 }
 
 OBSTheme::inactive {
@@ -198,7 +198,7 @@ QGroupBox::title {
 }
 
 QScrollBar:vertical {
-    background-color: rgb(58,57,58);
+    background-color: rgb(33,34,44); /* AnsiBlack */
     width: 14px;
     margin: 0px;
 }
@@ -273,7 +273,7 @@ QToolBar {
 }
 
 QToolButton:hover {
-    background-color: rgb(122,121,122); /* light */
+    background-color: rgb(98,114,164); /* Comment */
     border-radius: none;
 }
 
@@ -353,7 +353,7 @@ QTabBar::tab:selected {
 }
 
 QTabBar::tab:hover {
-    background-color: rgb(122,121,122); /* light */
+    background-color: rgb(98,114,164); /* Comment */
 }
 
 QTabBar::tab:pressed {
@@ -455,7 +455,7 @@ QSpinBox::down-button, QDoubleSpinBox::down-button {
 }
 
 QSpinBox::up-button:hover, QSpinBox::down-button:hover, QDoubleSpinBox::up-button:hover, QDoubleSpinBox::down-button:hover {
-    background-color: rgb(122,121,122); /* light */
+    background-color: rgb(98,114,164); /* Comment */
 }
 
 QSpinBox::up-button:pressed, QSpinBox::down-button:pressed, QDoubleSpinBox::up-button:pressed, QDoubleSpinBox::down-button:pressed {
@@ -498,7 +498,7 @@ QPushButton::flat {
 }
 
 QPushButton:hover {
-    background-color: rgb(122,121,122); /* light */
+    background-color: rgb(98,114,164); /* Comment */
 }
 
 QPushButton:pressed {
@@ -506,7 +506,7 @@ QPushButton:pressed {
 }
 
 QPushButton:checked {
-    background-color: rgb(122,121,122); /* light */
+    background-color: rgb(98,114,164); /* Comment */
 }
 
 QPushButton::menu-indicator {
@@ -583,7 +583,7 @@ QSlider::handle:hover {
 }
 
 QSlider::handle:disabled {
-    background-color: rgb(122,121,122); /* light */
+    background-color: rgb(98,114,164); /* Comment */
 }
 
 /* Volume Control */
@@ -597,7 +597,7 @@ VolumeMeter {
     qproperty-foregroundErrorColor: rgb(255, 76, 76);
     qproperty-magnitudeColor: rgb(0, 0, 0);
     qproperty-majorTickColor: rgb(248,248,242); /* Foreground */
-    qproperty-minorTickColor: rgb(122,121,122); /* light */
+    qproperty-minorTickColor: rgb(98,114,164); /* Comment */
 }
 
 
@@ -722,7 +722,7 @@ QLabel#errorLabel {
 /* Preview background color */
 
 OBSQTDisplay {
-	qproperty-displayBackgroundColor: rgb(76, 76, 76);
+	qproperty-displayBackgroundColor: rgb(68,71,90); /* Selection */
 }
 
 /* Preview/Program labels */
@@ -840,12 +840,10 @@ SceneTree {
 
 *[gridMode="true"] SceneTree::item:selected {
     background-color: rgb(98,114,164); /* Comment */
-    /**CHANGE THIS */
 }
 
 *[gridMode="true"] SceneTree::item:hover {
     background-color: rgb(98,114,164); /* Comment */
-    /**CHANGE THIS */
 }
 
 *[gridMode="true"] SceneTree::item:pressed {
@@ -853,7 +851,7 @@ SceneTree {
 }
 
 *[gridMode="true"] SceneTree::item:checked {
-    background-color: rgb(122,121,122); /* light */
+    background-color: rgb(98,114,164); /* Comment */
 }
 
 /* Save icon */
