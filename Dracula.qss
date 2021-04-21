@@ -1,33 +1,19 @@
-/******************************************************************************/
-/*   Copyright (C) 2014-2015 by Philippe Groarke <philippe.groarke@gmail.com> */
-/*                                                                            */
-/*                                                                            */
-/*   This program is free software: you can redistribute it and/or modify     */
-/*   it under the terms of the GNU General Public License as published by     */
-/*   the Free Software Foundation, either version 2 of the License, or        */
-/*   (at your option) any later version.                                      */
-/*                                                                            */
-/*   This program is distributed in the hope that it will be useful,          */
-/*   but WITHOUT ANY WARRANTY; without even the implied warranty of           */
-/*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the            */
-/*   GNU General Public License for more details.                             */
-/*                                                                            */
-/*                                                                            */
-/*   You should have received a copy of the GNU General Public License        */
-/*   along with this program.  If not, see <http://www.gnu.org/licenses/>.    */
-/******************************************************************************/
+/*
+    Dracula Colours
 
-/* Colors */
-
-/* rgb(225,224,225); /* veryLight */
-/* rgb(200,199,200); /* lighter */
-/* rgb(122,121,122); /* light */
-/* rgb(88,87,88); /* kindaDark */
-/* rgb(58,57,58); /* dark */
-/* rgb(31,30,31); /* veryDark */
-/* rgb(11,10,11); /* veryVeryDark */
-/* rgb(42,130,218); /* blue */
-
+    Background      #282a36 	rgb(40,42,54)
+    Current Line    #44475a 	rgb(68,71,90)
+    Selection       #44475a 	rgb(68,71,90)
+    Foreground      #f8f8f2 	rgb(248,248,242)
+    Comment         #6272a4 	rgb(98,114,164)
+    Cyan            #8be9fd 	rgb(139,233,253)
+    Green           #50fa7b 	rgb(80,250,123)
+    Orange          #ffb86c 	rgb(255,184,108)
+    Pink            #ff79c6 	rgb(255,121,198)
+    Purple          #bd93f9 	rgb(189,147,249)
+    Red             #ff5555 	rgb(255,85,85)
+    Yellow          #f1fa8c 	    rgb(241,250,140)	
+*/
 
 /* Custom theme information.  This will set the application's QPalette, as
  * well as pass to QML via the OBSTheme object.
