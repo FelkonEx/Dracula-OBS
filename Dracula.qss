@@ -635,7 +635,7 @@ MuteCheckBox::indicator:unchecked {
 }
 
 OBSHotkeyLabel[hotkeyPairHover=true] {
-    color: red;
+    color: rgb(255, 85, 85);
 }
 
 /* Pause */
@@ -680,7 +680,7 @@ QLabel#warningLabel {
 }
 
 QLabel#errorLabel {
-    color: rgb(192, 0, 0);
+    color: rgb(255,85,85);
     font-weight: bold;
 }
 
@@ -690,12 +690,12 @@ QLabel#errorLabel {
 }
 
 * [themeID="error"] {
-    color: rgb(192, 0, 0);
+    color: rgb(255,85,85);
     font-weight: bold;
 }
 
 * [themeID="good"] {
-    color: rgb(0, 192, 0);
+    color: rgb(80,250,123);
     font-weight: bold;
 }
 
