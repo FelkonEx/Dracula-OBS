@@ -1,3 +1,14 @@
+/* Colors */
+
+/* rgb(248,248,242); /* Foreground */
+/* rgb(200,199,200); /* lighter */
+/* rgb(122,121,122); /* light */
+/* rgb(98,114,164); /* Comment */
+/* rgb(40,42,54); /* Background */
+/* rgb(33,34,44); /* AnsiBlack */
+/* rgb(33,34,44); /* AnsiBlack */
+/* rgb(42,130,218); /* blue */
+
 /*
     Dracula Colours
 
@@ -12,27 +23,61 @@
     Pink            #ff79c6 	rgb(255,121,198)
     Purple          #bd93f9 	rgb(189,147,249)
     Red             #ff5555 	rgb(255,85,85)
-    Yellow          #f1fa8c 	    rgb(241,250,140)	
+    Yellow          #f1fa8c 	rgb(241,250,140)	
 */
+
+wip {
+    Background: rgb(40,42,54); 
+    CurrentLine: rgb(68,71,90); 
+    Selection: rgb(68,71,90);
+    Foreground: rgb(248,248,242); 
+    Comment: rgb(98,114,164);
+    Cyan: rgb(139,233,253);
+    Green: rgb(80,250,123);
+    Orange: rgb(255,184,108);
+    Pink: rgb(255,121,198);
+    Pueple: rgb(189,147,249);
+    Red: rgb(255,85,85);
+    Yellow: rgb(241,250,140);	
+
+    AnsiBlack: rgb(33,34,44);
+    AnsiRed: rgb(255,85,85);
+    AnsiGreen: rgb(80,250,123);
+    AnsiYellow: rgb(241,250, 140);
+    AnsiBlue: rgb(189,147, 249);
+    AnsiMagenta: rgb(255,121, 198);
+    AnsiCyan: rgb(139,233,253);
+    AnsiWhite: rgb(248,248,42);
+    AnsiBrightBlack: rgb(98,114,164);
+    AnsiBrightRed: rgb(255,110,110);
+    AnsiBrightGreen: rgb(105,255,148);
+    AnsiBrightYellow: rgb(255,255,165);
+    AnsiBrightBlue: rgb(214,172,255);
+    AnsiBrightMagenta: rgb(255,146,223);
+    AnsiBrightCyan: rgb(164,255,255);
+    AnsiBrightWhite: rgb(255,255,255);
+    
+}
+
 
 /* Custom theme information.  This will set the application's QPalette, as
  * well as pass to QML via the OBSTheme object.
  * Can also use OBSTheme::disabled, OBSTheme::active, and OBSTheme::inactive.
  * Using it without will set all three (making 'active' a bit redundant) */
 OBSTheme {
-    window: rgb(58,57,58); /* dark */
-    windowText: rgb(225,224,225); /* veryLight */
-    base: rgb(31,30,31); /* veryDark */
-    alternateBase: rgb(11,10,11); /* veryVeryDark */
-    text: rgb(225,224,225); /* veryLight */
-    button: rgb(88,87,88); /* kindaDark */
-    buttonText: rgb(225,224,225); /* veryLight */
+    window: rgb(40,42,54); /* Background */
+    windowText: rgb(248,248,242); /* Foreground */
+    base: rgb(33,34,44); /* AnsiBlack */
+    alternateBase: rgb(33,34,44); /* AnsiBlack */
+    text: rgb(248,248,242); /* Foreground */
+    button: rgb(98,114,164); /* Comment */
+    buttonText: rgb(248,248,242); /* Foreground */
     brightText: rgb(200,199,200); /* lighter */
 
-    light: rgb(88,87,88); /* kindaDark */
-    mid: rgb(58,57,58); /* dark */
-    dark: rgb(31,30,31); /* veryDark */
-    shadow: rgb(11,10,11); /* veryVeryDark */
+    light: rgb(98,114,164); /* Comment */
+    mid: rgb(40,42,54); /* Background */
+    dark: rgb(33,34,44); /* AnsiBlack */
+    shadow: rgb(33,34,44); /* AnsiBlack */
 
     highlight: rgb(42,130,218); /* blue */
     highlightText: rgb(0,0,0);
@@ -48,16 +93,16 @@ OBSTheme::disabled {
 }
 
 OBSTheme::inactive {
-    highlight: rgb(48,47,48);
+    /* highlight: rgb(48,47,48); */
     highlightText: rgb(255, 255, 255);
 }
 
 
 /* General style, we override only what is needed. */
 QWidget {
-    background-color: rgb(58,57,58); /* dark */
-    alternate-background-color: rgb(31,30,31); /* veryDark */
-    color: rgb(225,224,225); /* veryLight */
+    background-color: rgb(40,42,54); /* Background */
+    alternate-background-color: rgb(33,34,44); /* AnsiBlack */
+    color: rgb(248,248,242); /* Foreground */
     selection-background-color: rgb(42,130,218); /* blue */
     selection-color: black;
 }
@@ -74,23 +119,23 @@ QWidget::disabled {
 }
 
 QAbstractItemView, QStackedWidget#stackedMixerArea QWidget {
-    background-color: rgb(31,30,31); /* veryDark */
+    background-color: rgb(33,34,44); /* AnsiBlack */
 }
 
 QToolTip {
-    background-color: rgb(31,30,31); /* veryDark */
+    background-color: rgb(33,34,44); /* AnsiBlack */
     color: rgb(205,205,205);
     border: none;
 }
 
 QMenuBar::item {
-    background-color: rgb(58,57,58); /* dark */
+    background-color: rgb(40,42,54); /* Background */
 }
 
 QListWidget::item:selected:!active,
 SourceTree::item:selected:!active {
     color: rgb(255, 255, 255);
-    background-color: rgb(48,47,48);
+    /* background-color: rgb(48,47,48); */
 }
 
 QListWidget QLineEdit,
@@ -112,7 +157,7 @@ QDockWidget {
 
 QDockWidget::title {
     text-align: center;
-    background-color: rgb(70,69,70);
+    background-color: rgb(68,71,90); /* CurrentLine */
 }
 
 QDockWidget::close-button, QDockWidget::float-button {
@@ -132,7 +177,7 @@ QDockWidget::close-button:pressed, QDockWidget::float-button:pressed {
 /* Group Box */
 
 QGroupBox {
-    border: 1px solid rgb(31,30,31); /* veryDark */;
+    border: 1px solid rgb(33,34,44); /* AnsiBlack */;
     border-radius: 5px;
     padding-top: 24px;
     font-weight: bold;
@@ -148,7 +193,7 @@ QGroupBox::title {
 /* ScrollBars */
 
 ::corner {
-    background-color: rgb(58,57,58); /* dark */
+    background-color: rgb(40,42,54); /* Background */
     border: none;
 }
 
@@ -159,12 +204,12 @@ QScrollBar:vertical {
 }
 
 QScrollBar::handle:vertical {
-    background-color: rgb(76,76,76);
+    background-color: rgb(68,71,90); /* Selection */
     min-height: 20px;
     margin: 2px;
     border-radius: 5px;
     border-width: 1px;
-    border: 1px solid rgb(76,76,76);
+    border: 1px solid rgb(68,71,90); /* Selection */
 }
 
 QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
@@ -180,18 +225,18 @@ QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical, QScrollBar::add-
 }
 
 QScrollBar:horizontal {
-    background-color: rgb(58,57,58); /* dark */
+    background-color: rgb(40,42,54); /* Background */
     height: 14px;
     margin: 0px;
 }
 
 QScrollBar::handle:horizontal {
-    background-color: rgb(76,76,76);
+    background-color: rgb(68,71,90); /* Selection */
     min-width: 20px;
     margin: 2px;
     border-radius: 5px;
     border-width: 1px;
-    border: 1px solid rgb(76,76,76);
+    border: 1px solid rgb(68,71,90); /* Selection */
 }
 
 QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
@@ -223,7 +268,7 @@ QScrollBar::left-arrow:horizontal, QScrollBar::right-arrow:horizontal, QScrollBa
 /* Scenes and Sources toolbar */
 
 QToolBar {
-    background-color: rgb(58,57,58); /* dark */
+    background-color: rgb(40,42,54); /* Background */
     border: none;
 }
 
@@ -233,7 +278,7 @@ QToolButton:hover {
 }
 
 QToolButton:pressed {
-    background-color: rgb(31,30,31); /* veryDark */
+    background-color: rgb(33,34,44); /* AnsiBlack */
     border-radius: none;
 }
 
@@ -273,7 +318,7 @@ QToolButton:pressed {
 /* Tab Widget */
 
 QTabWidget::pane { /* The tab widget frame */
-    border-top: 1px solid rgb(31,30,31); /* veryDark */
+    border-top: 1px solid rgb(33,34,44); /* AnsiBlack */
 }
 
 QTabWidget::tab-bar {
@@ -281,7 +326,7 @@ QTabWidget::tab-bar {
 }
 
 QTabBar::tab {
-    background-color: rgb(76,76,76);
+    background-color: rgb(68,71,90); /* Selection */
     border: none;
     padding: 5px;
     min-width: 50px;
@@ -304,7 +349,7 @@ QTabBar::tab:bottom {
 }
 
 QTabBar::tab:selected {
-    background-color: rgb(31,30,31); /* veryDark */
+    background-color: rgb(33,34,44); /* AnsiBlack */
 }
 
 QTabBar::tab:hover {
@@ -312,24 +357,24 @@ QTabBar::tab:hover {
 }
 
 QTabBar::tab:pressed {
-    background-color: rgb(31,30,31); /* veryDark */
+    background-color: rgb(33,34,44); /* AnsiBlack */
 }
 
 
 /* ComboBox */
 
 QComboBox {
-    background-color: rgb(76,76,76);
+    background-color: rgb(68,71,90); /* Selection */
     border-style: solid;
     border: 1px;
     border-radius: 3px;
-    border-color: rgb(76,76,76); /* veryDark */
+    border-color: rgb(68,71,90); /* Selection */ /* veryDark */
     padding: 2px;
     padding-left: 10px;
 }
 
 QComboBox:hover {
-    background-color: rgb(88,87,88);
+    background-color: rgb(98,114,164); /* Comment */
 }
 
 QComboBox::drop-down {
@@ -345,7 +390,7 @@ QComboBox::down-arrow {
 }
 
 QComboBox:on {
-    background-color: rgb(31,30,31); /* veryDark */
+    background-color: rgb(33,34,44); /* AnsiBlack */
 }
 
 QComboBox:editable {
@@ -368,7 +413,7 @@ QComboBox::down-arrow:editable {
 /* Textedits etc */
 
 QLineEdit, QTextEdit, QPlainTextEdit {
-    background-color: rgb(31,30,31); /* veryDark */
+    background-color: rgb(33,34,44); /* AnsiBlack */
     border: none;
     border-radius: 3px;
     padding: 2px 2px 3px 7px;
@@ -377,7 +422,7 @@ QLineEdit, QTextEdit, QPlainTextEdit {
 /* Spinbox and doubleSpinbox */
 
 QSpinBox, QDoubleSpinBox {
-    background-color: rgb(31,30,31); /* veryDark */
+    background-color: rgb(33,34,44); /* AnsiBlack */
     border: none;
     border-radius: 3px;
     margin: 0px 3px 0px 0px;
@@ -388,8 +433,8 @@ QSpinBox::up-button, QDoubleSpinBox::up-button {
     subcontrol-origin: margin;
     subcontrol-position: top right; /* position at the top right corner */
 
-    background-color: rgb(76,76,76);
-    border: 1px solid rgb(31,30,31); /* veryDark */
+    background-color: rgb(68,71,90); /* Selection */
+    border: 1px solid rgb(33,34,44); /* AnsiBlack */
     border-radius: 3px;
     border-width: 0;
     border-bottom-left-radius: 0;
@@ -400,8 +445,8 @@ QSpinBox::up-button, QDoubleSpinBox::up-button {
 QSpinBox::down-button, QDoubleSpinBox::down-button {
     subcontrol-origin: margin;
     subcontrol-position: bottom right; /* position at the top right corner */
-    background-color: rgb(76,76,76);
-    border: 1px solid rgb(31,30,31); /* veryDark */
+    background-color: rgb(68,71,90); /* Selection */
+    border: 1px solid rgb(33,34,44); /* AnsiBlack */
     border-radius: 3px;
     border-width: 0;
     border-top-left-radius: 0;
@@ -414,15 +459,15 @@ QSpinBox::up-button:hover, QSpinBox::down-button:hover, QDoubleSpinBox::up-butto
 }
 
 QSpinBox::up-button:pressed, QSpinBox::down-button:pressed, QDoubleSpinBox::up-button:pressed, QDoubleSpinBox::down-button:pressed {
-    background-color: rgb(58,57,58); /* dark */
+    background-color: rgb(40,42,54); /* Background */
 }
 
 QSpinBox::up-button:disabled, QSpinBox::up-button:off, QSpinBox::down-button:disabled, QSpinBox::down-button:off {
-    background-color: rgb(58,57,58); /* dark */
+    background-color: rgb(40,42,54); /* Background */
 }
 
 QDoubleSpinBox::up-button:disabled, QDoubleSpinBox::up-button:off, QDoubleSpinBox::down-button:disabled, QDoubleSpinBox::down-button:off {
-    background-color: rgb(58,57,58); /* dark */
+    background-color: rgb(40,42,54); /* Background */
 }
 
 QSpinBox::up-arrow, QDoubleSpinBox::up-arrow {
@@ -439,8 +484,8 @@ QSpinBox::down-arrow, QDoubleSpinBox::down-arrow {
 /* Buttons */
 
 QPushButton {
-    color: rgb(225,224,225); /* veryLight */
-    background-color: rgb(76,76,76);
+    color: rgb(248,248,242); /* Foreground */
+    background-color: rgb(68,71,90); /* Selection */
     border: none;
     border-radius: 3px;
     padding: 4px;
@@ -449,7 +494,7 @@ QPushButton {
 }
 
 QPushButton::flat {
-    background-color: rgb(58,57,58); /* dark */
+    background-color: rgb(40,42,54); /* Background */
 }
 
 QPushButton:hover {
@@ -457,7 +502,7 @@ QPushButton:hover {
 }
 
 QPushButton:pressed {
-    background-color: rgb(31,30,31); /* veryDark */
+    background-color: rgb(33,34,44); /* AnsiBlack */
 }
 
 QPushButton:checked {
@@ -474,7 +519,7 @@ QPushButton::menu-indicator {
 /* Sliders */
 
 QSlider::groove:horizontal {
-    background-color: rgb(76,76,76);
+    background-color: rgb(68,71,90); /* Selection */
     height: 4px;
     border: none;
     border-radius: 2px;
@@ -504,7 +549,7 @@ QSlider::sub-page:horizontal:disabled {
 }
 
 QSlider::groove:vertical {
-    background-color: rgb(76,76,76);
+    background-color: rgb(68,71,90); /* Selection */
     width: 4px;
     border: none;
     border-radius: 2px;
@@ -551,7 +596,7 @@ VolumeMeter {
     qproperty-foregroundWarningColor: rgb(255, 255, 76);
     qproperty-foregroundErrorColor: rgb(255, 76, 76);
     qproperty-magnitudeColor: rgb(0, 0, 0);
-    qproperty-majorTickColor: rgb(225,224,225); /* veryLight */
+    qproperty-majorTickColor: rgb(248,248,242); /* Foreground */
     qproperty-minorTickColor: rgb(122,121,122); /* light */
 }
 
@@ -565,13 +610,13 @@ QStatusBar::item {
 /* Table View */
 
 QTableView {
-    gridline-color: rgb(88,87,88); /* kindaDark */
+    gridline-color: rgb(98,114,164); /* Comment */
 }
 
 QHeaderView::section {
-    background-color: rgb(58,57,58); /* dark */
-    color: rgb(225,224,225); /* veryLight */
-    border: 1px solid rgb(31,30,31); /* veryDark */;
+    background-color: rgb(40,42,54); /* Background */
+    color: rgb(248,248,242); /* Foreground */
+    border: 1px solid rgb(33,34,44); /* AnsiBlack */;
     border-radius: 5px;
 }
 
@@ -783,8 +828,8 @@ SceneTree {
 }
 
 *[gridMode="true"] SceneTree::item {
-    color: rgb(225,224,225); /* veryLight */
-    background-color: rgb(76,76,76);
+    color: rgb(248,248,242); /* Foreground */
+    background-color: rgb(68,71,90); /* Selection */
     border: none;
     border-radius: 3px;
     padding: 4px;
@@ -802,7 +847,7 @@ SceneTree {
 }
 
 *[gridMode="true"] SceneTree::item:pressed {
-    background-color: rgb(31,30,31); /* veryDark */
+    background-color: rgb(33,34,44); /* AnsiBlack */
 }
 
 *[gridMode="true"] SceneTree::item:checked {
