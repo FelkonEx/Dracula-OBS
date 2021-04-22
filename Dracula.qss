@@ -1,61 +1,61 @@
 /* Colors */
 
-/* rgb(248,248,242); /* Foreground */
-/* rgb(200,199,200); /* lighter */
-/* rgb(98,114,164); /* Comment */
-/* rgb(98,114,164); /* Comment */
-/* rgb(40,42,54); /* Background */
-/* rgb(33,34,44); /* AnsiBlack */
-/* rgb(33,34,44); /* AnsiBlack */
-/* rgb(42,130,218); /* blue */
+/* rgb(248, 248, 242); /* Foreground */
+/* rgb(200, 199, 200); /* lighter */
+/* rgb(98, 114, 164); /* Comment */
+/* rgb(98, 114, 164); /* Comment */
+/* rgb(40, 42, 54); /* Background */
+/* rgb(33, 34, 44); /* AnsiBlack */
+/* rgb(33, 34, 44); /* AnsiBlack */
+/* rgb(42, 130, 218); /* blue */
 
 /*
     Dracula Colours
 
-    Background      #282a36 	rgb(40,42,54)
-    Current Line    #44475a 	rgb(68,71,90)
-    Selection       #44475a 	rgb(68,71,90)
-    Foreground      #f8f8f2 	rgb(248,248,242)
-    Comment         #6272a4 	rgb(98,114,164)
-    Cyan            #8be9fd 	rgb(139,233,253)
-    Green           #50fa7b 	rgb(80,250,123)
-    Orange          #ffb86c 	rgb(255,184,108)
-    Pink            #ff79c6 	rgb(255,121,198)
-    Purple          #bd93f9 	rgb(189,147,249)
-    Red             #ff5555 	rgb(255,85,85)
-    Yellow          #f1fa8c 	rgb(241,250,140)	
+    Background      #282a36 	rgb(40, 42, 54)
+    Current Line    #44475a 	rgb(68, 71, 90)
+    Selection       #44475a 	rgb(68, 71, 90)
+    Foreground      #f8f8f2 	rgb(248, 248, 242)
+    Comment         #6272a4 	rgb(98, 114, 164)
+    Cyan            #8be9fd 	rgb(139, 233, 253)
+    Green           #50fa7b 	rgb(80, 250, 123)
+    Orange          #ffb86c 	rgb(255, 184, 108)
+    Pink            #ff79c6 	rgb(255, 121, 198)
+    Purple          #bd93f9 	rgb(189, 147, 249)
+    Red             #ff5555 	rgb(255, 85, 85)
+    Yellow          #f1fa8c 	rgb(241, 250, 140)	
 */
 
 wip {
-    Background: rgb(40,42,54); 
-    CurrentLine: rgb(68,71,90); 
-    Selection: rgb(68,71,90);
-    Foreground: rgb(248,248,242); 
-    Comment: rgb(98,114,164);
-    Cyan: rgb(139,233,253);
-    Green: rgb(80,250,123);
-    Orange: rgb(255,184,108);
-    Pink: rgb(255,121,198);
-    Pueple: rgb(189,147,249);
-    Red: rgb(255,85,85);
-    Yellow: rgb(241,250,140);	
+    Background: rgb(40, 42, 54); 
+    CurrentLine: rgb(68, 71, 90); 
+    Selection: rgb(68, 71, 90);
+    Foreground: rgb(248, 248, 242); 
+    Comment: rgb(98, 114, 164);
+    Cyan: rgb(139, 233, 253);
+    Green: rgb(80, 250, 123);
+    Orange: rgb(255, 184, 108);
+    Pink: rgb(255, 121, 198);
+    Pueple: rgb(189, 147, 249);
+    Red: rgb(255, 85, 85);
+    Yellow: rgb(241, 250, 140);	
 
-    AnsiBlack: rgb(33,34,44);
-    AnsiRed: rgb(255,85,85);
-    AnsiGreen: rgb(80,250,123);
-    AnsiYellow: rgb(241,250, 140);
-    AnsiBlue: rgb(189,147, 249);
-    AnsiMagenta: rgb(255,121, 198);
-    AnsiCyan: rgb(139,233,253);
-    AnsiWhite: rgb(248,248,42);
-    AnsiBrightBlack: rgb(98,114,164);
-    AnsiBrightRed: rgb(255,110,110);
-    AnsiBrightGreen: rgb(105,255,148);
-    AnsiBrightYellow: rgb(255,255,165);
-    AnsiBrightBlue: rgb(214,172,255);
-    AnsiBrightMagenta: rgb(255,146,223);
-    AnsiBrightCyan: rgb(164,255,255);
-    AnsiBrightWhite: rgb(255,255,255);
+    AnsiBlack: rgb(33, 34, 44);
+    AnsiRed: rgb(255, 85, 85);
+    AnsiGreen: rgb(80, 250, 123);
+    AnsiYellow: rgb(241, 250, 140);
+    AnsiBlue: rgb(189, 147, 249);
+    AnsiMagenta: rgb(255, 121, 198);
+    AnsiCyan: rgb(139, 233, 253);
+    AnsiWhite: rgb(248, 248, 42);
+    AnsiBrightBlack: rgb(98, 114, 164);
+    AnsiBrightRed: rgb(255, 110, 110);
+    AnsiBrightGreen: rgb(105, 255, 148);
+    AnsiBrightYellow: rgb(255, 255, 165);
+    AnsiBrightBlue: rgb(214, 172, 255);
+    AnsiBrightMagenta: rgb(255, 146, 223);
+    AnsiBrightCyan: rgb(164, 255, 255);
+    AnsiBrightWhite: rgb(255, 255, 255);
 }
 
 
@@ -64,22 +64,22 @@ wip {
  * Can also use OBSTheme::disabled, OBSTheme::active, and OBSTheme::inactive.
  * Using it without will set all three (making 'active' a bit redundant) */
 OBSTheme {
-    window: rgb(40,42,54); /* Background */
-    windowText: rgb(248,248,242); /* Foreground */
-    base: rgb(33,34,44); /* AnsiBlack */
-    alternateBase: rgb(33,34,44); /* AnsiBlack */
-    text: rgb(248,248,242); /* Foreground */
-    button: rgb(98,114,164); /* Comment */
-    buttonText: rgb(248,248,242); /* Foreground */
-    brightText: rgb(200,199,200); /* lighter */
+    window: rgb(40, 42, 54); /* Background */
+    windowText: rgb(248, 248, 242); /* Foreground */
+    base: rgb(33, 34, 44); /* AnsiBlack */
+    alternateBase: rgb(33, 34, 44); /* AnsiBlack */
+    text: rgb(248, 248, 242); /* Foreground */
+    button: rgb(98, 114, 164); /* Comment */
+    buttonText: rgb(248, 248, 242); /* Foreground */
+    brightText: rgb(200, 199, 200); /* lighter */
 
-    light: rgb(98,114,164); /* Comment */
-    mid: rgb(40,42,54); /* Background */
-    dark: rgb(33,34,44); /* AnsiBlack */
-    shadow: rgb(33,34,44); /* AnsiBlack */
+    light: rgb(98, 114, 164); /* Comment */
+    mid: rgb(40, 42, 54); /* Background */
+    dark: rgb(33, 34, 44); /* AnsiBlack */
+    shadow: rgb(33, 34, 44); /* AnsiBlack */
 
-    highlight: rgb(42,130,218); /* blue */
-    highlightText: rgb(0,0,0);
+    highlight: rgb(42, 130, 218); /* blue */
+    highlightText: rgb(0, 0, 0);
 
     link: rgb(114, 162, 255); /* OBS blue */
     linkVisited: rgb(114, 162, 255); /* OBS blue */
@@ -87,22 +87,22 @@ OBSTheme {
 
 OBSTheme::disabled {
     text: rgb(68, 71, 90); /* Comment */
-    buttonText: rgb(98,114,164); /* Comment */
-    brightText: rgb(98,114,164); /* Comment */
+    buttonText: rgb(98, 114, 164); /* Comment */
+    brightText: rgb(98, 114, 164); /* Comment */
 }
 
 OBSTheme::inactive {
-    /* highlight: rgb(48,47,48); */
+    /* highlight: rgb(48, 47, 48); */
     highlightText: rgb(255, 255, 255);
 }
 
 
 /* General style, we override only what is needed. */
 QWidget {
-    background-color: rgb(40,42,54); /* Background */
-    alternate-background-color: rgb(33,34,44); /* AnsiBlack */
-    color: rgb(248,248,242); /* Foreground */
-    selection-background-color: rgb(42,130,218); /* blue */
+    background-color: rgb(40, 42, 54); /* Background */
+    alternate-background-color: rgb(33, 34, 44); /* AnsiBlack */
+    color: rgb(248, 248, 242); /* Foreground */
+    selection-background-color: rgb(42, 130, 218); /* blue */
     selection-color: black;
 }
 
@@ -112,7 +112,7 @@ QWidget {
 * [frameShape="4"], 
 * [frameShape="5"], 
 * [frameShape="6"] {
-    border: 1px solid rgb(31,30,31);
+    border: 1px solid rgb(31, 30, 31);
 }
 
 
@@ -120,31 +120,31 @@ QWidget {
 /* Misc */
 
 QWidget::disabled {
-    color: 2px solid rgb(200,199,200); /* lighter */
+    color: 2px solid rgb(200, 199, 200); /* lighter */
 }
 
 QAbstractItemView, 
 QStackedWidget#stackedMixerArea QWidget {
-    background-color: rgb(33,34,44); /* AnsiBlack */
+    background-color: rgb(33, 34, 44); /* AnsiBlack */
 }
 
 QToolTip {
-    background-color: rgb(33,34,44); /* AnsiBlack */
-    color: rgb(205,205,205);
+    background-color: rgb(33, 34, 44); /* AnsiBlack */
+    color: rgb(205, 205, 205);
     border: none;
 }
 
 QMenuBar::item {
-    background-color: rgb(40,42,54); /* Background */
+    background-color: rgb(40, 42, 54); /* Background */
 }
 
-QListWidget::item:selected:!active,
+QListWidget::item:selected:!active, 
 SourceTree::item:selected:!active {
     color: rgb(255, 255, 255);
-    background-color: rgb(68,71,90); /* CurrentLine */
+    background-color: rgb(68, 71, 90); /* CurrentLine */
 }
 
-QListWidget QLineEdit,
+QListWidget QLineEdit, 
 SourceTree QLineEdit {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -165,7 +165,7 @@ QDockWidget {
 
 QDockWidget::title {
     text-align: center;
-    background-color: rgb(68,71,90); /* CurrentLine */
+    background-color: rgb(68, 71, 90); /* CurrentLine */
 }
 
 QDockWidget::close-button, 
@@ -190,7 +190,7 @@ QDockWidget::float-button:pressed {
 /* Group Box */
 
 QGroupBox {
-    border: 1px solid rgb(33,34,44); /* AnsiBlack */;
+    border: 1px solid rgb(33, 34, 44); /* AnsiBlack */;
     border-radius: 5px;
     padding-top: 24px;
     font-weight: bold;
@@ -207,23 +207,23 @@ QGroupBox::title {
 /* ScrollBars */
 
 ::corner {
-    background-color: rgb(40,42,54); /* Background */
+    background-color: rgb(40, 42, 54); /* Background */
     border: none;
 }
 
 QScrollBar:vertical {
-    background-color: rgb(33,34,44); /* AnsiBlack */
+    background-color: rgb(33, 34, 44); /* AnsiBlack */
     width: 14px;
     margin: 0px;
 }
 
 QScrollBar::handle:vertical {
-    background-color: rgb(68,71,90); /* Selection */
+    background-color: rgb(68, 71, 90); /* Selection */
     min-height: 20px;
     margin: 2px;
     border-radius: 5px;
     border-width: 1px;
-    border: 1px solid rgb(68,71,90); /* Selection */
+    border: 1px solid rgb(68, 71, 90); /* Selection */
 }
 
 QScrollBar::add-line:vertical, 
@@ -243,18 +243,18 @@ QScrollBar::sub-page:vertical {
 }
 
 QScrollBar:horizontal {
-    background-color: rgb(40,42,54); /* Background */
+    background-color: rgb(40, 42, 54); /* Background */
     height: 14px;
     margin: 0px;
 }
 
 QScrollBar::handle:horizontal {
-    background-color: rgb(68,71,90); /* Selection */
+    background-color: rgb(68, 71, 90); /* Selection */
     min-width: 20px;
     margin: 2px;
     border-radius: 5px;
     border-width: 1px;
-    border: 1px solid rgb(68,71,90); /* Selection */
+    border: 1px solid rgb(68, 71, 90); /* Selection */
 }
 
 QScrollBar::add-line:horizontal, 
@@ -294,17 +294,17 @@ QScrollBar::sub-page:horizontal {
 /* Scenes and Sources toolbar */
 
 QToolBar {
-    background-color: rgb(40,42,54); /* Background */
+    background-color: rgb(40, 42, 54); /* Background */
     border: none;
 }
 
 QToolButton:hover {
-    background-color: rgb(98,114,164); /* Comment */
+    background-color: rgb(98, 114, 164); /* Comment */
     border-radius: none;
 }
 
 QToolButton:pressed {
-    background-color: rgb(33,34,44); /* AnsiBlack */
+    background-color: rgb(33, 34, 44); /* AnsiBlack */
     border-radius: none;
 }
 
@@ -345,7 +345,7 @@ QToolButton:pressed {
 /* Tab Widget */
 
 QTabWidget::pane { /* The tab widget frame */
-    border-top: 1px solid rgb(33,34,44); /* AnsiBlack */
+    border-top: 1px solid rgb(33, 34, 44); /* AnsiBlack */
 }
 
 QTabWidget::tab-bar {
@@ -353,7 +353,7 @@ QTabWidget::tab-bar {
 }
 
 QTabBar::tab {
-    background-color: rgb(68,71,90); /* Selection */
+    background-color: rgb(68, 71, 90); /* Selection */
     border: none;
     padding: 5px;
     min-width: 50px;
@@ -376,15 +376,15 @@ QTabBar::tab:bottom {
 }
 
 QTabBar::tab:selected {
-    background-color: rgb(33,34,44); /* AnsiBlack */
+    background-color: rgb(33, 34, 44); /* AnsiBlack */
 }
 
 QTabBar::tab:hover {
-    background-color: rgb(98,114,164); /* Comment */
+    background-color: rgb(98, 114, 164); /* Comment */
 }
 
 QTabBar::tab:pressed {
-    background-color: rgb(33,34,44); /* AnsiBlack */
+    background-color: rgb(33, 34, 44); /* AnsiBlack */
 }
 
 
@@ -392,22 +392,22 @@ QTabBar::tab:pressed {
 /* ComboBox */
 
 QComboBox {
-    background-color: rgb(68,71,90); /* Selection */
+    background-color: rgb(68, 71, 90); /* Selection */
     border-style: solid;
     border: 1px;
     border-radius: 3px;
-    border-color: rgb(68,71,90); /* Selection */
+    border-color: rgb(68, 71, 90); /* Selection */
     padding: 2px;
     padding-left: 10px;
 }
 
 QComboBox:hover {
-    background-color: rgb(98,114,164); /* Comment */
+    background-color: rgb(98, 114, 164); /* Comment */
 }
 
 QComboBox::drop-down {
     border:none;
-    border-left: 1px solid rgba(31,30,31,155); /* veryDark */
+    border-left: 1px solid rgba(31, 30, 31, 155); /* veryDark */
     width: 20px;
 }
 
@@ -418,7 +418,7 @@ QComboBox::down-arrow {
 }
 
 QComboBox:on {
-    background-color: rgb(33,34,44); /* AnsiBlack */
+    background-color: rgb(33, 34, 44); /* AnsiBlack */
 }
 
 QComboBox:editable {
@@ -444,7 +444,7 @@ QComboBox::down-arrow:editable {
 QLineEdit, 
 QTextEdit, 
 QPlainTextEdit {
-    background-color: rgb(33,34,44); /* AnsiBlack */
+    background-color: rgb(33, 34, 44); /* AnsiBlack */
     border: none;
     border-radius: 3px;
     padding: 2px 2px 3px 7px;
@@ -456,7 +456,7 @@ QPlainTextEdit {
 
 QSpinBox, 
 QDoubleSpinBox {
-    background-color: rgb(33,34,44); /* AnsiBlack */
+    background-color: rgb(33, 34, 44); /* AnsiBlack */
     border: none;
     border-radius: 3px;
     margin: 0px 3px 0px 0px;
@@ -468,8 +468,8 @@ QDoubleSpinBox::up-button {
     subcontrol-origin: margin;
     subcontrol-position: top right; /* position at the top right corner */
 
-    background-color: rgb(68,71,90); /* Selection */
-    border: 1px solid rgb(33,34,44); /* AnsiBlack */
+    background-color: rgb(68, 71, 90); /* Selection */
+    border: 1px solid rgb(33, 34, 44); /* AnsiBlack */
     border-radius: 3px;
     border-width: 0;
     border-bottom-left-radius: 0;
@@ -481,8 +481,8 @@ QSpinBox::down-button,
 QDoubleSpinBox::down-button {
     subcontrol-origin: margin;
     subcontrol-position: bottom right; /* position at the top right corner */
-    background-color: rgb(68,71,90); /* Selection */
-    border: 1px solid rgb(33,34,44); /* AnsiBlack */
+    background-color: rgb(68, 71, 90); /* Selection */
+    border: 1px solid rgb(33, 34, 44); /* AnsiBlack */
     border-radius: 3px;
     border-width: 0;
     border-top-left-radius: 0;
@@ -494,28 +494,28 @@ QSpinBox::up-button:hover,
 QSpinBox::down-button:hover, 
 QDoubleSpinBox::up-button:hover, 
 QDoubleSpinBox::down-button:hover {
-    background-color: rgb(98,114,164); /* Comment */
+    background-color: rgb(98, 114, 164); /* Comment */
 }
 
 QSpinBox::up-button:pressed, 
 QSpinBox::down-button:pressed, 
 QDoubleSpinBox::up-button:pressed, 
 QDoubleSpinBox::down-button:pressed {
-    background-color: rgb(40,42,54); /* Background */
+    background-color: rgb(40, 42, 54); /* Background */
 }
 
 QSpinBox::up-button:disabled, 
 QSpinBox::up-button:off, 
 QSpinBox::down-button:disabled, 
 QSpinBox::down-button:off {
-    background-color: rgb(40,42,54); /* Background */
+    background-color: rgb(40, 42, 54); /* Background */
 }
 
 QDoubleSpinBox::up-button:disabled, 
 QDoubleSpinBox::up-button:off, 
 QDoubleSpinBox::down-button:disabled, 
 QDoubleSpinBox::down-button:off {
-    background-color: rgb(40,42,54); /* Background */
+    background-color: rgb(40, 42, 54); /* Background */
 }
 
 QSpinBox::up-arrow, 
@@ -535,8 +535,8 @@ QDoubleSpinBox::down-arrow {
 /* Buttons */
 
 QPushButton {
-    color: rgb(248,248,242); /* Foreground */
-    background-color: rgb(68,71,90); /* Selection */
+    color: rgb(248, 248, 242); /* Foreground */
+    background-color: rgb(68, 71, 90); /* Selection */
     border: none;
     border-radius: 3px;
     padding: 4px;
@@ -545,19 +545,19 @@ QPushButton {
 }
 
 QPushButton::flat {
-    background-color: rgb(40,42,54); /* Background */
+    background-color: rgb(40, 42, 54); /* Background */
 }
 
 QPushButton:hover {
-    background-color: rgb(98,114,164); /* Comment */
+    background-color: rgb(98, 114, 164); /* Comment */
 }
 
 QPushButton:pressed {
-    background-color: rgb(33,34,44); /* AnsiBlack */
+    background-color: rgb(33, 34, 44); /* AnsiBlack */
 }
 
 QPushButton:checked {
-    background-color: rgb(98,114,164); /* Comment */
+    background-color: rgb(98, 114, 164); /* Comment */
 }
 
 QPushButton::menu-indicator {
@@ -572,7 +572,7 @@ QPushButton::menu-indicator {
 /* Sliders */
 
 QSlider::groove:horizontal {
-    background-color: rgb(68,71,90); /* Selection */
+    background-color: rgb(68, 71, 90); /* Selection */
     height: 4px;
     border: none;
     border-radius: 2px;
@@ -580,7 +580,7 @@ QSlider::groove:horizontal {
 
 QSlider::handle:horizontal {
     background-color: #d2d2d2;
-    border: 1px solid rgb(58,57,58);
+    border: 1px solid rgb(58, 57, 58);
     border-radius: 3px;
     height: 10px;
     width: 18px;
@@ -592,7 +592,7 @@ QSlider::handle:horizontal:pressed {
 }
 
 QSlider::sub-page:horizontal {
-    background-color: rgb(42,130,218); /* blue */
+    background-color: rgb(42, 130, 218); /* blue */
     border-radius: 2px;
 }
 
@@ -602,7 +602,7 @@ QSlider::sub-page:horizontal:disabled {
 }
 
 QSlider::groove:vertical {
-    background-color: rgb(68,71,90); /* Selection */
+    background-color: rgb(68, 71, 90); /* Selection */
     width: 4px;
     border: none;
     border-radius: 2px;
@@ -610,7 +610,7 @@ QSlider::groove:vertical {
 
 QSlider::handle:vertical {
     background-color: #d2d2d2;
-    border: 1px solid rgb(58,57,58);
+    border: 1px solid rgb(58, 57, 58);
     border-radius: 3px;
     width: 10px;
     height: 18px;
@@ -622,7 +622,7 @@ QSlider::handle:vertical:pressed {
 }
 
 QSlider::add-page:vertical {
-    background-color: rgb(42,130,218); /* blue */
+    background-color: rgb(42, 130, 218); /* blue */
     border-radius: 2px;
 }
 
@@ -632,11 +632,11 @@ QSlider::add-page:vertical:disabled {
 }
 
 QSlider::handle:hover {
-    background-color: rgb(200,199,200); /* veryLight */
+    background-color: rgb(200, 199, 200); /* veryLight */
 }
 
 QSlider::handle:disabled {
-    background-color: rgb(98,114,164); /* Comment */
+    background-color: rgb(98, 114, 164); /* Comment */
 }
 
 
@@ -651,8 +651,8 @@ VolumeMeter {
     qproperty-foregroundWarningColor: rgb(241, 250, 140);
     qproperty-foregroundErrorColor: rgb(255, 85, 85);
     qproperty-magnitudeColor: rgb(0, 0, 0);
-    qproperty-majorTickColor: rgb(248,248,242); /* Foreground */
-    qproperty-minorTickColor: rgb(98,114,164); /* Comment */
+    qproperty-majorTickColor: rgb(248, 248, 242); /* Foreground */
+    qproperty-minorTickColor: rgb(98, 114, 164); /* Comment */
 }
 
 
@@ -668,13 +668,13 @@ QStatusBar::item {
 /* Table View */
 
 QTableView {
-    gridline-color: rgb(98,114,164); /* Comment */
+    gridline-color: rgb(98, 114, 164); /* Comment */
 }
 
 QHeaderView::section {
-    background-color: rgb(40,42,54); /* Background */
-    color: rgb(248,248,242); /* Foreground */
-    border: 1px solid rgb(33,34,44); /* AnsiBlack */;
+    background-color: rgb(40, 42, 54); /* Background */
+    color: rgb(248, 248, 242); /* Foreground */
+    border: 1px solid rgb(33, 34, 44); /* AnsiBlack */;
     border-radius: 5px;
 }
 
@@ -745,7 +745,7 @@ QLabel#warningLabel {
 }
 
 QLabel#errorLabel {
-    color: rgb(255,85,85);
+    color: rgb(255, 85, 85);
     font-weight: bold;
 }
 
@@ -755,12 +755,12 @@ QLabel#errorLabel {
 }
 
 * [themeID="error"] {
-    color: rgb(255,85,85);
+    color: rgb(255, 85, 85);
     font-weight: bold;
 }
 
 * [themeID="good"] {
-    color: rgb(80,250,123);
+    color: rgb(80, 250, 123);
     font-weight: bold;
 }
 
@@ -791,7 +791,7 @@ QLabel#errorLabel {
 /* Preview background color */
 
 OBSQTDisplay {
-	qproperty-displayBackgroundColor: rgb(68,71,90); /* Selection */
+	qproperty-displayBackgroundColor: rgb(68, 71, 90); /* Selection */
 }
 
 
@@ -801,7 +801,7 @@ OBSQTDisplay {
 * [themeID="previewProgramLabels"] {
     font-size: 18px;
     font-weight: bold;
-    color: rgb(122,121,122);
+    color: rgb(122, 121, 122);
 }
 
 
@@ -870,11 +870,11 @@ QPushButton#extraPanelDelete {
 }
 
 QPushButton#extraPanelDelete:hover {
-    background-color: rgb(122,121,122);
+    background-color: rgb(122, 121, 122);
 }
 
 QPushButton#extraPanelDelete:pressed {
-    background-color: rgb(31,30,31);
+    background-color: rgb(31, 30, 31);
 }
 
 
@@ -909,8 +909,8 @@ SceneTree {
 }
 
 *[gridMode="true"] SceneTree::item {
-    color: rgb(248,248,242); /* Foreground */
-    background-color: rgb(68,71,90); /* Selection */
+    color: rgb(248, 248, 242); /* Foreground */
+    background-color: rgb(68, 71, 90); /* Selection */
     border: none;
     border-radius: 3px;
     padding: 4px;
@@ -920,19 +920,19 @@ SceneTree {
 }
 
 *[gridMode="true"] SceneTree::item:selected {
-    background-color: rgb(98,114,164); /* Comment */
+    background-color: rgb(98, 114, 164); /* Comment */
 }
 
 *[gridMode="true"] SceneTree::item:hover {
-    background-color: rgb(98,114,164); /* Comment */
+    background-color: rgb(98, 114, 164); /* Comment */
 }
 
 *[gridMode="true"] SceneTree::item:pressed {
-    background-color: rgb(33,34,44); /* AnsiBlack */
+    background-color: rgb(33, 34, 44); /* AnsiBlack */
 }
 
 *[gridMode="true"] SceneTree::item:checked {
-    background-color: rgb(98,114,164); /* Comment */
+    background-color: rgb(98, 114, 164); /* Comment */
 }
 
 
@@ -952,18 +952,18 @@ QSlider[themeID="tBarSlider"] {
 }
 
 QSlider::groove:horizontal[themeID="tBarSlider"] {
-	border: 1px solid rgb(68,71,90); /* CurrentLine */
+	border: 1px solid rgb(68, 71, 90); /* CurrentLine */
 	height: 5px;
 	background: rgb(33, 34, 44); /* Background */
 }
 
 QSlider::sub-page:horizontal[themeID="tBarSlider"] {
-	background: rgb(40,42,54); /* Background */
-	border: 1px solid rgb(68,71,90); /* CurrentLine */
+	background: rgb(40, 42, 54); /* Background */
+	border: 1px solid rgb(68, 71, 90); /* CurrentLine */
 }
 
 QSlider::handle:horizontal[themeID="tBarSlider"] {
-	background-color: rgb(98,114,164); /* Comment */
+	background-color: rgb(98, 114, 164); /* Comment */
 	width: 12px;
 	height: 24px;
 	margin: -24px 0px;
