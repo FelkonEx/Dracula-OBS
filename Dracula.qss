@@ -56,7 +56,6 @@ wip {
     AnsiBrightMagenta: rgb(255,146,223);
     AnsiBrightCyan: rgb(164,255,255);
     AnsiBrightWhite: rgb(255,255,255);
-    
 }
 
 
@@ -112,6 +111,7 @@ QWidget {
 }
 
 
+
 /* Misc */
 
 QWidget::disabled {
@@ -148,6 +148,8 @@ SourceTree QLineEdit {
     border-radius: none;
 }
 
+
+
 /* Dock Widget */
 
 QDockWidget {
@@ -174,6 +176,8 @@ QDockWidget::close-button:pressed, QDockWidget::float-button:pressed {
     padding: 1px -1px -1px 1px;
 }
 
+
+
 /* Group Box */
 
 QGroupBox {
@@ -188,6 +192,7 @@ QGroupBox::title {
     left: 4px;
     top: 4px;
 }
+
 
 
 /* ScrollBars */
@@ -251,6 +256,8 @@ QScrollBar::left-arrow:horizontal, QScrollBar::right-arrow:horizontal, QScrollBa
     color: none;
 }
 
+
+
 /* Source Context */
 #contextContainer QPushButton[themeID2=contextBarButton] {
     padding: 3px;
@@ -264,6 +271,8 @@ QScrollBar::left-arrow:horizontal, QScrollBar::right-arrow:horizontal, QScrollBa
 #contextContainer QPushButton#sourceFiltersButton {
     qproperty-icon: url(./Dark/filter.svg);
 }
+
+
 
 /* Scenes and Sources toolbar */
 
@@ -315,6 +324,7 @@ QToolButton:pressed {
 }
 
 
+
 /* Tab Widget */
 
 QTabWidget::pane { /* The tab widget frame */
@@ -359,6 +369,7 @@ QTabBar::tab:hover {
 QTabBar::tab:pressed {
     background-color: rgb(33,34,44); /* AnsiBlack */
 }
+
 
 
 /* ComboBox */
@@ -410,6 +421,7 @@ QComboBox::down-arrow:editable {
 }
 
 
+
 /* Textedits etc */
 
 QLineEdit, QTextEdit, QPlainTextEdit {
@@ -418,6 +430,8 @@ QLineEdit, QTextEdit, QPlainTextEdit {
     border-radius: 3px;
     padding: 2px 2px 3px 7px;
 }
+
+
 
 /* Spinbox and doubleSpinbox */
 
@@ -481,6 +495,7 @@ QSpinBox::down-arrow, QDoubleSpinBox::down-arrow {
 }
 
 
+
 /* Buttons */
 
 QPushButton {
@@ -515,6 +530,8 @@ QPushButton::menu-indicator {
     subcontrol-origin: padding;
     width: 25px;
 }
+
+
 
 /* Sliders */
 
@@ -586,6 +603,8 @@ QSlider::handle:disabled {
     background-color: rgb(98,114,164); /* Comment */
 }
 
+
+
 /* Volume Control */
 
 VolumeMeter {
@@ -601,11 +620,14 @@ VolumeMeter {
 }
 
 
+
 /* Status Bar */
 
 QStatusBar::item {
     border: none;
 }
+
+
 
 /* Table View */
 
@@ -619,6 +641,8 @@ QHeaderView::section {
     border: 1px solid rgb(33,34,44); /* AnsiBlack */;
     border-radius: 5px;
 }
+
+
 
 /* Mute CheckBox */
 
@@ -638,6 +662,8 @@ OBSHotkeyLabel[hotkeyPairHover=true] {
     color: rgb(255, 85, 85);
 }
 
+
+
 /* Pause */
 PauseCheckBox {
     outline: none;
@@ -650,6 +676,8 @@ PauseCheckBox::indicator:checked {
 PauseCheckBox::indicator:unchecked {
     image: url(:/res/images/media-play.svg);
 }
+
+
 
 /* Group Collapse Checkbox */
 
@@ -670,6 +698,7 @@ SourceTreeSubItemCheckBox::indicator:checked {
 SourceTreeSubItemCheckBox::indicator:unchecked {
     image: url(./Dark/down.svg);
 }
+
 
 
 /* Label warning/error */
@@ -699,6 +728,8 @@ QLabel#errorLabel {
     font-weight: bold;
 }
 
+
+
 /* About dialog */
 
 * [themeID="aboutName"] {
@@ -719,11 +750,15 @@ QLabel#errorLabel {
     background-color: rgb(31, 30, 31); /* veryDark */
 }
 
+
+
 /* Preview background color */
 
 OBSQTDisplay {
 	qproperty-displayBackgroundColor: rgb(68,71,90); /* Selection */
 }
+
+
 
 /* Preview/Program labels */
 
@@ -732,6 +767,8 @@ OBSQTDisplay {
     font-weight: bold;
     color: rgb(122,121,122);
 }
+
+
 
 /* Settings Icons */
 
@@ -750,6 +787,8 @@ OBSBasicSettings QListWidget::item {
     padding-bottom: 5px;
 }
 
+
+
 /* Locked CheckBox */
 
 LockedCheckBox {
@@ -764,6 +803,8 @@ LockedCheckBox::indicator:checked {
 LockedCheckBox::indicator:unchecked {
     image: url(:res/images/unlocked.svg);
 }
+
+
 
 /* Visibility CheckBox */
 
@@ -800,6 +841,8 @@ QPushButton#extraPanelDelete:pressed {
     background-color: rgb(31,30,31);
 }
 
+
+
 /* Source Icons */
 
 OBSBasic {
@@ -819,6 +862,8 @@ OBSBasic {
     qproperty-sceneIcon: url(./Dark/sources/scene.svg);
     qproperty-defaultIcon: url(./Dark/sources/default.svg);
 }
+
+
 
 /* Scene Tree */
 
@@ -854,11 +899,15 @@ SceneTree {
     background-color: rgb(98,114,164); /* Comment */
 }
 
+
+
 /* Save icon */
 
 * [themeID="replayIconSmall"] {
     qproperty-icon: url(./Dark/save.svg);
 }
+
+
 
 /* Studio Mode T-Bar */
 
@@ -867,22 +916,24 @@ QSlider[themeID="tBarSlider"] {
 }
 
 QSlider::groove:horizontal[themeID="tBarSlider"] {
-	border: 1px solid #4c4c4c;
+	border: 1px solid rgb(68,71,90); /* CurrentLine */
 	height: 5px;
-	background: rgb(31,30,31);
+	background: rgb(40,42,54); /* Background */
 }
 
 QSlider::sub-page:horizontal[themeID="tBarSlider"] {
-	background: rgb(31,30,31);;
-	border: 1px solid #4c4c4c;
+	background: rgb(40,42,54); /* Background */
+	border: 1px solid rgb(68,71,90); /* CurrentLine */
 }
 
 QSlider::handle:horizontal[themeID="tBarSlider"] {
-	background-color: #d2d2d2;
+	background-color: rgb(98,114,164); /* Comment */
 	width: 12px;
 	height: 24px;
 	margin: -24px 0px;
 }
+
+
 
 /* Media icons */
 
