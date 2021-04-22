@@ -106,7 +106,12 @@ QWidget {
     selection-color: black;
 }
 
-* [frameShape="1"], * [frameShape="2"], * [frameShape="3"], * [frameShape="4"], * [frameShape="5"], * [frameShape="6"] {
+* [frameShape="1"], 
+* [frameShape="2"], 
+* [frameShape="3"], 
+* [frameShape="4"], 
+* [frameShape="5"], 
+* [frameShape="6"] {
     border: 1px solid rgb(31,30,31);
 }
 
@@ -118,7 +123,8 @@ QWidget::disabled {
     color: 2px solid rgb(200,199,200); /* lighter */
 }
 
-QAbstractItemView, QStackedWidget#stackedMixerArea QWidget {
+QAbstractItemView, 
+QStackedWidget#stackedMixerArea QWidget {
     background-color: rgb(33,34,44); /* AnsiBlack */
 }
 
@@ -162,17 +168,20 @@ QDockWidget::title {
     background-color: rgb(68,71,90); /* CurrentLine */
 }
 
-QDockWidget::close-button, QDockWidget::float-button {
+QDockWidget::close-button, 
+QDockWidget::float-button {
     border: 1px solid transparent;
     background: transparent;
     padding: 0px;
 }
 
-QDockWidget::close-button:hover, QDockWidget::float-button:hover {
+QDockWidget::close-button:hover, 
+QDockWidget::float-button:hover {
     background: transparent;
 }
 
-QDockWidget::close-button:pressed, QDockWidget::float-button:pressed {
+QDockWidget::close-button:pressed, 
+QDockWidget::float-button:pressed {
     padding: 1px -1px -1px 1px;
 }
 
@@ -217,13 +226,17 @@ QScrollBar::handle:vertical {
     border: 1px solid rgb(68,71,90); /* Selection */
 }
 
-QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+QScrollBar::add-line:vertical, 
+QScrollBar::sub-line:vertical {
     border: none;
     background: none;
     height: 0px;
 }
 
-QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical, QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+QScrollBar::up-arrow:vertical, 
+QScrollBar::down-arrow:vertical, 
+QScrollBar::add-page:vertical, 
+QScrollBar::sub-page:vertical {
     border: none;
     background: none;
     color: none;
@@ -244,13 +257,17 @@ QScrollBar::handle:horizontal {
     border: 1px solid rgb(68,71,90); /* Selection */
 }
 
-QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+QScrollBar::add-line:horizontal, 
+QScrollBar::sub-line:horizontal {
     border: none;
     background: none;
     width: 0px;
 }
 
-QScrollBar::left-arrow:horizontal, QScrollBar::right-arrow:horizontal, QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+QScrollBar::left-arrow:horizontal, 
+QScrollBar::right-arrow:horizontal, 
+QScrollBar::add-page:horizontal, 
+QScrollBar::sub-page:horizontal {
     border: none;
     background: none;
     color: none;
@@ -379,7 +396,7 @@ QComboBox {
     border-style: solid;
     border: 1px;
     border-radius: 3px;
-    border-color: rgb(68,71,90); /* Selection */ /* veryDark */
+    border-color: rgb(68,71,90); /* Selection */
     padding: 2px;
     padding-left: 10px;
 }
@@ -424,7 +441,9 @@ QComboBox::down-arrow:editable {
 
 /* Textedits etc */
 
-QLineEdit, QTextEdit, QPlainTextEdit {
+QLineEdit, 
+QTextEdit, 
+QPlainTextEdit {
     background-color: rgb(33,34,44); /* AnsiBlack */
     border: none;
     border-radius: 3px;
@@ -435,7 +454,8 @@ QLineEdit, QTextEdit, QPlainTextEdit {
 
 /* Spinbox and doubleSpinbox */
 
-QSpinBox, QDoubleSpinBox {
+QSpinBox, 
+QDoubleSpinBox {
     background-color: rgb(33,34,44); /* AnsiBlack */
     border: none;
     border-radius: 3px;
@@ -443,7 +463,8 @@ QSpinBox, QDoubleSpinBox {
     padding: 2px 2px 3px 7px;
 }
 
-QSpinBox::up-button, QDoubleSpinBox::up-button {
+QSpinBox::up-button, 
+QDoubleSpinBox::up-button {
     subcontrol-origin: margin;
     subcontrol-position: top right; /* position at the top right corner */
 
@@ -456,7 +477,8 @@ QSpinBox::up-button, QDoubleSpinBox::up-button {
     border-bottom-width: 0;
 }
 
-QSpinBox::down-button, QDoubleSpinBox::down-button {
+QSpinBox::down-button, 
+QDoubleSpinBox::down-button {
     subcontrol-origin: margin;
     subcontrol-position: bottom right; /* position at the top right corner */
     background-color: rgb(68,71,90); /* Selection */
@@ -468,28 +490,42 @@ QSpinBox::down-button, QDoubleSpinBox::down-button {
     border-top-width: 0;
 }
 
-QSpinBox::up-button:hover, QSpinBox::down-button:hover, QDoubleSpinBox::up-button:hover, QDoubleSpinBox::down-button:hover {
+QSpinBox::up-button:hover, 
+QSpinBox::down-button:hover, 
+QDoubleSpinBox::up-button:hover, 
+QDoubleSpinBox::down-button:hover {
     background-color: rgb(98,114,164); /* Comment */
 }
 
-QSpinBox::up-button:pressed, QSpinBox::down-button:pressed, QDoubleSpinBox::up-button:pressed, QDoubleSpinBox::down-button:pressed {
+QSpinBox::up-button:pressed, 
+QSpinBox::down-button:pressed, 
+QDoubleSpinBox::up-button:pressed, 
+QDoubleSpinBox::down-button:pressed {
     background-color: rgb(40,42,54); /* Background */
 }
 
-QSpinBox::up-button:disabled, QSpinBox::up-button:off, QSpinBox::down-button:disabled, QSpinBox::down-button:off {
+QSpinBox::up-button:disabled, 
+QSpinBox::up-button:off, 
+QSpinBox::down-button:disabled, 
+QSpinBox::down-button:off {
     background-color: rgb(40,42,54); /* Background */
 }
 
-QDoubleSpinBox::up-button:disabled, QDoubleSpinBox::up-button:off, QDoubleSpinBox::down-button:disabled, QDoubleSpinBox::down-button:off {
+QDoubleSpinBox::up-button:disabled, 
+QDoubleSpinBox::up-button:off, 
+QDoubleSpinBox::down-button:disabled, 
+QDoubleSpinBox::down-button:off {
     background-color: rgb(40,42,54); /* Background */
 }
 
-QSpinBox::up-arrow, QDoubleSpinBox::up-arrow {
+QSpinBox::up-arrow, 
+QDoubleSpinBox::up-arrow {
     image: url(./Dark/up.svg);
     width: 100%;
 }
 
-QSpinBox::down-arrow, QDoubleSpinBox::down-arrow {
+QSpinBox::down-arrow, 
+QDoubleSpinBox::down-arrow {
     image: url(./Dark/down.svg);
     width: 100%;
 }
