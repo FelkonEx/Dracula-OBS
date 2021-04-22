@@ -86,7 +86,7 @@ OBSTheme {
 }
 
 OBSTheme::disabled {
-    text: rgb(98,114,164); /* Comment */
+    text: rgb(68, 71, 90); /* Comment */
     buttonText: rgb(98,114,164); /* Comment */
     brightText: rgb(98,114,164); /* Comment */
 }
@@ -954,7 +954,7 @@ QSlider[themeID="tBarSlider"] {
 QSlider::groove:horizontal[themeID="tBarSlider"] {
 	border: 1px solid rgb(68,71,90); /* CurrentLine */
 	height: 5px;
-	background: rgb(40,42,54); /* Background */
+	background: rgb(33, 34, 44); /* Background */
 }
 
 QSlider::sub-page:horizontal[themeID="tBarSlider"] {
